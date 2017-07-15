@@ -9,7 +9,7 @@ from functools import reduce
 from api import Scraper
 from ui_driver import Driver
 
-TOKEN = "313726066:AAFKTQjDAixSqdxiO16sl11BMIyfBjGpYKA"
+TOKEN = "HERE_GOES_TELEGRAM_TOKEN"
 URL = "https://api.telegram.org/bot{}/".format(TOKEN)
 url = 'https://postmates.com/chicago'
 
