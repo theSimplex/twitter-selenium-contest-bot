@@ -31,6 +31,6 @@ Then run:
 python3 main.py
  ```
 
-By default selenium uses chrome headless mode and has disabled images and javascript for performance purposes. 
+By default selenium uses chrome headless mode, has disabled images and javascript for performance purposes. 
 
-If you want to run it using Raspberry Pi (or similar) you'll need compile webdriver executable for ARM architecture.
+If you want to run it using Raspberry Pi (or similar) you'll need to compile webdriver executable for ARM architecture.
