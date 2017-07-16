@@ -1,8 +1,7 @@
-# Selenium Twitter Contest bot.
+# API-less Twitter Contest bot.
 
 Twitter bot to participate in online contests without API interactions.
 Made with [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) and [Selenium](http://www.seleniumhq.org/).
-Utilizes 'headless' selenium mode.
 
 ## Disclaimer
 
@@ -26,4 +25,10 @@ This bot is written purely for educational purposes. I hold no liability for wha
                   {"name": "user2",
                   "pwd": "password2"}]
 }
-``` 
+```
+Create empty file history.dat
+Then run:
+> **python3 main.py**
+By default selenium uses chrome headless mode and has disabled images and javascript for performance purposes. 
+
+If you want to run it using Raspberry Pi (or similar) you'll need compile webdriver executable for ARM architecture.
