@@ -11,7 +11,6 @@ from ui_driver import Driver
 
 TOKEN = "HERE_GOES_TELEGRAM_TOKEN"
 URL = "https://api.telegram.org/bot{}/".format(TOKEN)
-url = 'https://postmates.com/chicago'
 
 
 
