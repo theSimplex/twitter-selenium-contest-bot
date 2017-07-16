@@ -17,6 +17,7 @@ This bot is written purely for educational purposes. I hold no liability for wha
  ## Usage
  Create file config.json:
  >**config.json** 
+ ```json
  {
         "search-queries": ["query1", "query2"],
         "follow-keywords": ["keyword1", "keyword2"],
@@ -24,4 +25,5 @@ This bot is written purely for educational purposes. I hold no liability for wha
                   "pwd": "password1"},
                   {"name": "user2",
                   "pwd": "password2"}]
-} 
+}
+``` 
