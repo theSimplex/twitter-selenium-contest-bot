@@ -15,7 +15,6 @@ This bot is written purely for educational purposes. I hold no liability for wha
 
  ## Usage
  Create file config.json:
- >**config.json** 
  ```json
  {
         "search-queries": ["query1", "query2"],
@@ -28,7 +27,10 @@ This bot is written purely for educational purposes. I hold no liability for wha
 ```
 Create empty file history.dat
 Then run:
-> **python3 main.py**
+```shell
+python3 main.py
+ ```
+
 By default selenium uses chrome headless mode and has disabled images and javascript for performance purposes. 
 
 If you want to run it using Raspberry Pi (or similar) you'll need compile webdriver executable for ARM architecture.
